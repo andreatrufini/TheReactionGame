@@ -19,7 +19,7 @@ The first screen in which it is possible to choose the interface is the followin
 
 ## GUI
 ### Initial window
-<div style="text-align:center"><img src="./Report/Immagini/Schermata_1.png" /></div>)
+<center><img src="./Report/Immagini/Schermata_1.png" /></center>
 
 ### Main window
 ![](./Report/Immagini/Schermata_3.png)
