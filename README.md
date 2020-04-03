@@ -15,25 +15,25 @@ a) GUI (developed in Python)
 b) shell interface. 
 
 The first screen in which it is possible to choose the interface is the following one:
-![](./Report/Immagini/Schermata_iniziale.png)
+<p align="center"><img src="./Report/Immagini/Schermata_iniziale.png" /></p>
 
 ## GUI
 ### Initial window
 <p align="center"><img src="./Report/Immagini/Schermata_1.png" /></p>
 
 ### Main window
-![](./Report/Immagini/Schermata_3.png)
+<p align="center"><img src="./Report/Immagini/Schermata_3.png" /></p>
 
-![](./Report/Immagini/Schermata_4.png)
+<p align="center"><img src="./Report/Immagini/Schermata_4.png" /></p>
 
 ### Board not connected
-![](./Report/Immagini/Schermata_connect.png)
+<p align="center"><img src="./Report/Immagini/Schermata_connect.png" /></p>
 
 ### Board loading
-![](./Report/Immagini/Schermata_loading.png)
+<p align="center"><img src="./Report/Immagini/Schermata_loading.png" /></p>
 
 ### End window
-![](./Report/Immagini/Schermata_finale.png)
+<p align="center"><img src="./Report/Immagini/Schermata_finale.png" /></p>
 
 ## TERMINAL
 The second way allows to do mainly the same things of the first one but it is developed in *bash* and there is no graphical interface.
