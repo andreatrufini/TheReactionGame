@@ -1,0 +1,47 @@
+#!/bin/bash 
+
+tput clear
+tput cup 3 15
+tput bold
+tput setaf 3
+tput rev 
+echo "**********The reaction game**********"
+tput sgr0
+tput cup 5 17
+tput setaf 7
+echo "Set the execution mode of the game:"
+tput sgr0
+tput cup 7 15
+tput setaf 6
+echo "1. Terminal"
+tput cup 8 15
+tput setaf 6
+echo "2. GUI"
+
+tput bold
+tput cup 11 15
+tput setaf 7
+read -p "Enter your choice [1-2]: " choice
+
+
+
+case $choice in
+        1)
+	    clear
+	    tput sgr0 
+	    cd Terminal_Interface
+	    python3.6 Terminal.py
+	    ;;
+	
+	2)
+       	    clear
+       	    tput sgr0
+	    cd GUI_Interface
+	    ./GUI.py
+	    ;;
+
+	*)
+	    tput setaf 6
+	    echo "Error of the input. Retry"
+	    ;;
+esac
